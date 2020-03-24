@@ -7,4 +7,20 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'mockApp01';
+
+  displaymessage (){
+    console.log('this message has been displayed')
+  }
+  
+ movies = ["kill bill","inception","fight club"];
+
+
+
+ pantea (tool,arz) {
+let surface = tool*arz
+
+return surface;
+
+}
+
 }
